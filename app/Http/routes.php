@@ -18,6 +18,12 @@
         return view('welcome');
     });
 
+    Route::get('/chart', 'ChartController@index');
+
+    Route::post('/postUpload', 'ChartController@postUpload');
+
+	Route::get('/kota', 'ChartController@kota');    
+
     Route::controllers([
     	'auth' => 'Auth\AuthController',
     	'password' => 'Auth\PasswordController',

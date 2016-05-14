@@ -1,4 +1,4 @@
-<!-- REQUIRED JS SCRIPTS -->
+REQUIRED JS SCRIPTS -->
 
 <!-- jQuery 2.1.4 -->
 <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
@@ -7,7 +7,14 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('/js/app.min.js') }}" type="text/javascript"></script>
 
+
+<!-- <script src="node_modules/chart.js/src/chart.js" type="text/javascript"></script> -->
+
+<!-- <script src="node_modules/chart.js/dist/Chart.js" type="text/javascript"></script> -->
+
+<!-- <script src="../../../node_modules/chart.js/dist/Chart.min.js" type="text/javascript"></script> -->
+
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
       Both of these plugins are recommended to enhance the
       user experience. Slimscroll is required when using the
-      fixed layout. -->
+      fixed layout.
