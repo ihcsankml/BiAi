@@ -20,6 +20,8 @@
 
     Route::get('/chart', 'ChartController@index');
 
+    Route::get('/merchant', 'MerchantController@index');
+
     Route::post('/postUpload', 'ChartController@postUpload');
 
 	Route::get('/kota', 'ChartController@kota');    

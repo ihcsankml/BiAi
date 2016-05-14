@@ -16,8 +16,8 @@ class CreateRecordsTable extends Migration
             $table->increments('id');
             $table->string('kota');
             $table->date('tanggal');
-            $table->integer('komplain');
-            $table->integer('resolved');
+            $table->string('komplain');
+            $table->boolean('resolved');
             // $table->timestamps();
         });
     }
